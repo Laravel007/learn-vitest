@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1680318755832" clover="3.2.0">
+  <project timestamp="1680318755832" name="All files">
+    <metrics statements="20" coveredstatements="18" conditionals="9" coveredconditionals="9" methods="11" coveredmethods="9" elements="40" coveredelements="36" complexity="0" loc="20" ncloc="20" packages="1" files="2" classes="2"/>
+    <file name="calulator.ts" path="/Users/ismaldts/Documents/Own/learn-vitest/src/calulator.ts">
+      <metrics statements="7" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="2"/>
+      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="3" count="4" type="cond" truecount="1" falsecount="0"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+    </file>
+    <file name="counter.ts" path="/Users/ismaldts/Documents/Own/learn-vitest/src/counter.ts">
+      <metrics statements="13" coveredstatements="13" conditionals="7" coveredconditionals="7" methods="7" coveredmethods="7"/>
+      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="12" count="8" type="stmt"/>
+      <line num="13" count="8" type="cond" truecount="1" falsecount="0"/>
+    </file>
+  </project>
+</coverage>
