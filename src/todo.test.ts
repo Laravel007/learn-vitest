@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { getTodos, addTodoItem, Todo } from "./todo";
+import { getTodos, addTodoItem, Todo, deleteTodoItem } from "./todo";
 
 describe("todo app", () => {
   test("get todos", () => {
@@ -35,6 +35,10 @@ describe("todo app", () => {
     expect(todosData).toStrictEqual([{ text: "cooking" }]);
 
     // delete here
+
+    const updatedTodos2 = deleteTodoItem(todosData, 0);
+    todosData = updatedTodos2;
+    expect(todosData).toStrictEqual([]);
 
     const updatedTodos3 = addTodoItem(todosData, "dieting");
     todosData = updatedTodos3;

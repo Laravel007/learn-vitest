@@ -15,8 +15,9 @@ export function addTodoItem(todos: Todo[], text: string) {
 }
 
 // delete function
-export function deleteTodoItem(index: number) {
-  todos.splice(1, index);
+export function deleteTodoItem(todos: Todo[], todoIndex: number) {
+  const newTodos = todos.filter((_, index) => index !== todoIndex);
+  return newTodos;
 }
 
 // edit function
