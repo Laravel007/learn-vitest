@@ -21,6 +21,14 @@ export function deleteTodoItem(todos: Todo[], todoIndex: number) {
 }
 
 // edit function
-// export function editTodoItem(index: number, value: string) {
-//     todos[index].item = value
-// }
+export function editTodoItem(todos: Todo[], todoIndex: number, newName: string) {
+  const newTodos = todos.map((item, index) => {
+    if (index === todoIndex) {
+      return {...item, name: newName}
+    }
+
+    return item
+  })
+
+  return newTodos
+}
